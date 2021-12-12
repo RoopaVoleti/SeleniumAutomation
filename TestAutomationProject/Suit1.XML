@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FirstSuite">
+  <test thread-count="5" name="FirstTest">
+    <classes>
+      <class name="AutomationTests.FirstTestCase"/>
+      <class name="AutomationTests.NewTest"/>
+    </classes>
+  </test> <!-- FirstTest -->
+</suite> <!-- FirstSuite -->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="allSuites">
+  <suite-files>
+    <suite-file path="suite1.xml" />
+    <suite-file path="suite2.xml" />
+    ...
+  </suite-files>
+</suite>
