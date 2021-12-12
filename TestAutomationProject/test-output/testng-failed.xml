@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AutomationTests.FirstTestCase">
+      <class name="AutomationTests.WaitsTest">
         <methods>
-          <include name="launchBrowser"/>
-          <include name="test2"/>
-          <include name="test1"/>
-          <include name="terminateBrowser"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- AutomationTests.FirstTestCase -->
+      </class> <!-- AutomationTests.WaitsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
