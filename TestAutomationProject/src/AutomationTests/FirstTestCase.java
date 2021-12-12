@@ -40,7 +40,7 @@ public class FirstTestCase {
 		driver = new ChromeDriver();
 		driver.get("https://yourautomatedpractice.com");
 		driver.manage().window().maximize();
-		Thread.sleep(8000);
+		Thread.sleep(10000);
 		driver.findElement(By.id("svg-fancy_icon-38-878")).click();
 		System.out.println("alert dismissed");
 
