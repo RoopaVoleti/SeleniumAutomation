@@ -10,7 +10,7 @@ public class NewTest1 {
 	
   @Test
   public void testCaseOne() {
-	  System.setProperty("webdriver.chrome.driver", "/Users/roopavoleti/Downloads/selenium-java-4/selenium-chrome-driver-4.0.0.jar");
+	  System.setProperty("webdriver.chrome.driver", "/Users/roopavoleti/Documents/AutomationTestingSetup/ChromeDriverExecutable/chromedriver");
 	  WebDriver driver = new ChromeDriver();
 	  driver.get("https://yourautomatedpractice.com");
 	  driver.manage().window().maximize();
